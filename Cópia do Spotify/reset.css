@@ -1,0 +1,112 @@
+/* Reset CSS */
+
+/* Box sizing border-box for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+blockquote,
+figure,
+figcaption,
+pre,
+code,
+fieldset,
+legend,
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styling */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default block margin */
+blockquote,
+figure {
+  margin: 0;
+}
+
+/* Remove default table spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset anchor styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset form styles */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* Reset button styles */
+button {
+  overflow: visible;
+}
+
+/* Reset input types */
+input,
+select {
+  overflow: visible;
+}
+
+/* Address Safari input styling */
+input[type="search"] {
+  appearance: textfield;
+  outline-offset: -2px;
+}
+
+/* Apply focus styles to active elements */
+:focus {
+  outline: 0;
+}
+
+/* Reset scalable font sizes */
+html {
+  font-size: 16px;
+}
+
+/* Optional: Set a background color for the whole document */
+body {
+  background-color: #fff;
+}
+
+/* Optional: Set a default font family */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Additional styles can be added based on your specific needs */
