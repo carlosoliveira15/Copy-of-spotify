@@ -1,11 +1,13 @@
 * {
     font-family: 'Md Sans', sans-serif;
     color: #b3b3b3;
+    letter-spacing: 0.3px;
 }
 
 
 body {
     background-color: #000000;
+    height: 100vh;
 }
 
 .sidebar {
@@ -52,6 +54,14 @@ body {
     padding-left: 8px;
 }
 
+.sidebar_navigation_home:hover {
+    color: #fff;
+}
+
+.sidebar_navigation_search:hover {
+    color: #fff;
+}
+
 .sidebar nav ul li a span {
     padding-right: 12px;
 }
@@ -61,7 +71,7 @@ body {
     border-radius: 10px;
     padding: 10px 8px 10px 8px;
     margin-top: 8px;
-    height: 740px;
+    height: 680px;
 }
 
 .library ul {
@@ -81,6 +91,10 @@ body {
 .library ul li a span {
     
     padding-right: 12px;
+}
+
+.library ul li a i:hover {
+    color: #fff;
 }
 
 .library .first_playlist {
@@ -120,7 +134,7 @@ body {
 
 }
 
-.library .first_playlist .create_playlist_button a {
+.create_playlist_btn_style {
     background-color: #fff;
     color: #000000;
     font-family: 'DM Sans', sans-serif;
@@ -129,6 +143,13 @@ body {
     border-radius: 16px;
     margin-left: 16px;
     padding: 8px 14px;
+}
+
+.create_playlist_btn_style:hover {
+    background-color: #3fd33f;
+    padding: 10px 16px;
+    border-radius: 20px;
+
 }
 
 .library .find_podcasts {
@@ -179,8 +200,14 @@ body {
     padding: 8px 14px;
 }
 
+.library .find_podcasts .find_podcasts_button a:hover {
+    background-color: #3fd33f;
+    padding: 10px 16px;
+    border-radius: 20px;
+}
+
 .cookies {
-    padding-top: 160px;
+    padding-top: 130px;
 
 }
 
@@ -199,11 +226,17 @@ body {
 
 .choose_lang_button ul li a{
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #b3b3b3;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
-    border-radius: 18px;
-    padding: 8px 14px;
+    border-radius: 20px;
+    padding: 10px 16px;
+}
+
+.choose_lang_button ul li a:hover {
+    border-radius: 26px;
+    padding: 11px 18px;
+    border: 1px solid #fff;
 }
 
 .choose_lang_button ul li a i {
@@ -214,5 +247,57 @@ body {
 .choose_lang_button ul li a span {
     color: #fff;
     font-size: 15px;
+}
+
+footer {
+    background-color: #3b85f5;
+    background: linear-gradient(to right, #dd35b9, #3b85f5);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 14px 16px 14px 16px;
+    margin: 0px 12px 8px 12px;
+}
+
+.footer_subscribe_spotify {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_subscribe_spotify ul li {
+    padding-bottom: 4px;
+}
+
+.footer_subscribe_spotify ul li span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.footer_subscribe_spotify ul li a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.container_sub_spotify_btn {
+    padding-top: 15px;
+}
+
+.subscribe_spotify_btn {
+    background-color: #fff;
+    color: #000000;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 36px;
+    margin-left: 14px;
+    margin-right: 10px;
+    padding: 18px 30px;
+}
+
+.subscribe_spotify_btn:hover {
+    padding: 19px 32px;
 }
 
